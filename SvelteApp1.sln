@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvelteApp1.Server", "SvelteApp1.Server\SvelteApp1.Server.csproj", "{9CA4F111-63BA-439C-9F15-E3396B2F1730}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "svelteapp1.client", "svelteapp1.client\svelteapp1.client.esproj", "{1BD78378-3A9C-4FE2-BEA3-DB777007FD92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA4F111-63BA-439C-9F15-E3396B2F1730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA4F111-63BA-439C-9F15-E3396B2F1730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA4F111-63BA-439C-9F15-E3396B2F1730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA4F111-63BA-439C-9F15-E3396B2F1730}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD78378-3A9C-4FE2-BEA3-DB777007FD92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD78378-3A9C-4FE2-BEA3-DB777007FD92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD78378-3A9C-4FE2-BEA3-DB777007FD92}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1BD78378-3A9C-4FE2-BEA3-DB777007FD92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD78378-3A9C-4FE2-BEA3-DB777007FD92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD78378-3A9C-4FE2-BEA3-DB777007FD92}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {999F2B36-1FD0-4120-A79B-3FF27E84E1A2}
+	EndGlobalSection
+EndGlobal
